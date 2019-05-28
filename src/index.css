@@ -28,7 +28,7 @@ a:hover
 
 .app-container {
   display: grid;
-  grid-template-columns: 12em auto;
+  grid-template-columns: 10em auto;
 }
 
 .navbar {
@@ -44,45 +44,37 @@ a:hover
   height: 30em;
 }
 
-.content {
+.home {
   grid-column: 2 / 3;
+}
+
+.home > .mansory {
+  max-width: 100%;
   padding-top: 3em;
-  padding-right: 2em;
-  display: flex;
-  display: -ms-flexbox;
-  flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
+  padding-right: 2.7em;
+  padding-left: 2em;
+  column-gap: .7em;
+  column-count: 3;
 }
 
-.content > .imgCardCol {
-  -ms-flex: 32%;
-  flex: 32%;
-  max-width: 33%;
-  padding-right: .7em; 
-}
-
-.content > .imgCardCol > .landingImg {
+.home > .mansory > .mansory_item {
   width: 100%;
   margin-bottom: .6em;
 }
 
-.landingImg:hover {
+.mansory_item:hover {
   cursor: pointer;
   opacity: 0.8;
 }
 
 @media screen and (max-width: 1450px) {
-  .content > .imgCardCol {
-    -ms-flex: 48%;
-    flex: 48%;
-    max-width: 48%;
+  .home > .mansory {
+    column-count: 2;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .content > .imgCardCol {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
+  .home > .mansory {
+    column-count: 1;
   }
 }
