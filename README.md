@@ -1,5 +1,5 @@
 ## Missing Seoul (Ongoin Project)
-Demo: https://www.missingseoul.com
+Demo: http://www.missingseoul.com
 
 Korea Travel Guide
 
