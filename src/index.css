@@ -1,18 +1,83 @@
-.app {
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+body {
+  margin: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-bottom: .5em;
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+a:hover 
+{
+   color:rgb(202, 144, 68); 
+   text-decoration:none; 
+   cursor:pointer;  
+}
+
+.app-container {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 50px 500px;
+  grid-template-columns: 12em auto;
 }
 
 .navbar {
-  grid-column: 1 / 13;
-  grid-row: 1 / 2;
+  grid-column: 1 / 2;
 }
 
-.navbar logo {
-  height: 1em;
+.navbar > .menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-top: 1.3em;
+  padding-left: 2em;
+  height: 30em;
 }
 
 .content {
-  grid-row: 1 / -1;
+  grid-column: 2 / 3;
+  padding-top: 3em;
+  padding-right: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content > .imgCardCol {
+  flex: 32%;
+  max-width: 33%;
+  padding-right: .7em; 
+}
+
+.content > .imgCardCol > .landingImg {
+  width: 100%;
+  margin-bottom: .6em;
+}
+
+.landingImg:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1400px) {
+  .content > .imgCardCol {
+    flex: 48%;
+    max-width: 48%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .content > .imgCardCol {
+    flex: 100%;
+    max-width: 100%;
+  }
 }
