@@ -14,34 +14,13 @@ li {
   margin-bottom: .5em;
 }
 
-a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
-}
-
-a:hover 
-{
-   color:rgb(202, 144, 68); 
-   text-decoration:none; 
-   cursor:pointer;  
-}
-
 .app-container {
   display: grid;
-  grid-template-columns: 10em auto;
+  grid-template-columns: 10% auto;
 }
 
 .navbar {
   grid-column: 1 / 2;
-}
-
-.navbar > .menu {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  padding-top: 1.3em;
-  padding-left: 2em;
-  height: 30em;
 }
 
 .home {
@@ -50,16 +29,16 @@ a:hover
 
 .home > .mansory {
   max-width: 100%;
-  padding-top: 3em;
-  padding-right: 2.7em;
-  padding-left: 2em;
-  column-gap: .7em;
+  padding-top: 2.7%;
+  padding-left: 1%;
+  padding-right: 2.7%;
+  column-gap: .7%;
   column-count: 3;
 }
 
 .home > .mansory > .mansory_item {
   width: 100%;
-  margin-bottom: .6em;
+  margin-bottom: 1.6%;
 }
 
 .mansory_item:hover {

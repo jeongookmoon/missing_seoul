@@ -1,0 +1,29 @@
+.navbar > .menu {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding-top: 7%;
+  padding-left: 9.5%;
+  height: 30em;
+}
+.navbar > .menu > ul > li {
+  height: 2.5em;
+}
+
+.menu_item {
+  color: rgb(41, 41, 41);
+  text-decoration: none;
+}
+
+.menu_item:hover{
+  color:rgb(202, 144, 68); 
+  text-decoration:none; 
+}
+
+.menu_title {
+  font-size: 2.3vw;
+}
+
+.menu_list {
+  font-size: 1.2vw;
+}
