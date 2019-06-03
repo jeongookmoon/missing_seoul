@@ -53,19 +53,19 @@ h1 {
 @media screen and (max-width: 1450px) {
   .navbar{
     grid-column: 1 /3;
-    padding: 0;
   }
   .home {
     grid-column: 1 /3;
     padding: 0;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
   }
   .home > .mansory {
+    column-gap: 1.8%;
     column-count: 2;
   }
   .home > .mansory > .mansory_item {
-    margin-bottom: 1%;
+    margin-bottom: 3%;
   }
 }
 
