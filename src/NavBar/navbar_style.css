@@ -53,13 +53,6 @@
     float: right;
     width: 10vw;
     padding: 0;
-    padding-left: 4%;
-    text-align: right;
-  }
-
-  .navbar > .menu > ul > li > a {
-    padding: 0;
-    display: inline-block;
     text-align: center;
   }
 
