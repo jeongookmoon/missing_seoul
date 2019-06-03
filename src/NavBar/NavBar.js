@@ -28,13 +28,13 @@ class NavBar extends React.Component {
           <h1><a href="#" className="menu_item menu_title">Missing Seoul</a></h1>
           <ul>
             <li><a href="#" className="menu_item menu_list" name="attraction"
-              onMouseLeave={this.switchItemLanguage}>{attraction}</a></li>
+              onClick={this.switchItemLanguage}>{attraction}</a></li>
             <li ><a href="#" className="menu_item menu_list" name="culture"
-              onMouseLeave={this.switchItemLanguage}>{culture}</a></li>
+              onClick={this.switchItemLanguage}>{culture}</a></li>
             <li><a href="#" className="menu_item menu_list" name="food"
-              onMouseLeave={this.switchItemLanguage}>{food}</a></li>
+              onClick={this.switchItemLanguage}>{food}</a></li>
             <li><a href="#" className="menu_item menu_list" name="post"
-              onMouseLeave={this.switchItemLanguage}>{post}</a></li>
+              onClick={this.switchItemLanguage}>{post}</a></li>
           </ul>
         </div>
       </div>
