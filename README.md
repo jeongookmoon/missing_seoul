@@ -1,6 +1,7 @@
-## Missing Seoul (Ongoin Project)
+## Missing Seoul(To be updated)
+
 Demo: http://www.missingseoul.com
 
-Korea Travel Guide
-
 ## Responsive Design
+## Mansory Layout Using CSS
+
